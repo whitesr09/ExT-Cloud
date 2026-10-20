@@ -39,6 +39,10 @@ jobs:
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          # Default package list includes the removed 'tools' package and
+          # fails; install exactly what the build needs (compileSdk 35).
+          packages: "platform-tools platforms;android-35 build-tools;35.0.0"
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
