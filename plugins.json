@@ -1,0 +1,42 @@
+[
+    {
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
+        "fileHash": "sha256-44fdaad722a3fb18f8a8613a6d0cdae3833fd13877f54cfdc70e1c819d60b4f0",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/whitesr09/ExT-Cloud",
+        "fileSize": 7406,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Nshd"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": 1,
+        "internalName": "ExtCloudProvider",
+        "description": "ExT-Cloud example provider",
+        "url": "https://raw.githubusercontent.com/whitesr09/ExT-Cloud/builds/ExtCloudProvider.cs3",
+        "name": "ExtCloudProvider"
+    },
+    {
+        "iconUrl": "https://xhamster46.desi/favicon.ico",
+        "fileHash": "sha256-30b6f14888c52cea6ef9ecbcd553887f9bdede7580023f496aa83dda8d5026ed",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/whitesr09/ExT-Cloud",
+        "fileSize": 15649,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Nshd"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "XHamsterProvider",
+        "description": "xHamster videos (xhamster46.desi mirror)",
+        "url": "https://raw.githubusercontent.com/whitesr09/ExT-Cloud/builds/XHamsterProvider.cs3",
+        "name": "XHamsterProvider"
+    }
+]
