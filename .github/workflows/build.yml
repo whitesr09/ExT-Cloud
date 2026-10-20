@@ -14,6 +14,10 @@ on:
     paths-ignore:
       - '*.md'
 
+# GITHUB_TOKEN needs write access to push the builds branch
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
